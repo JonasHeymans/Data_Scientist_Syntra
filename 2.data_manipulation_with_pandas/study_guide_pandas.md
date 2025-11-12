@@ -53,7 +53,7 @@ Voordat je met Pandas aan de slag kunt, moet je het installeren.
 
 ### Installatie
 ```bash
-pip install 2.data_manipulation_with_pandas
+pip install pandas
 ```
 
 Importeer Pandas in je Python-omgeving:
