@@ -65,7 +65,7 @@ print(df)
 ```
 Een DataFrame lijkt op een Excel-tabel of SQL-tabel: elke kolom heeft een naam en elke rij een index.
 
-### Het Index-object
+
 De index geeft elke rij en kolom een identiteit.
 ```python
 print(df.index)
