@@ -37,45 +37,6 @@ jupyter notebook
 
 ## 🧱 2. Pandas-objecten
 
-# Python for Data Science – Pandas
-
-Pandas is één van de belangrijkste tools binnen data science.  
-Het laat je toe om data te verkennen, op te schonen en te transformeren — allemaal binnen Python.
-
-Deze gids helpt je stap voor stap begrijpen hoe je met Pandas werkt.  
-Ze dient als naslagwerk tijdens de oefeningen en projecten in deze module.
-
----
-
-## 📦 1. Installeren en gebruiken van Pandas
-
-Voordat je met Pandas aan de slag kunt, moet je het installeren.
-
-### Installatie
-```bash
-pip install pandas
-```
-
-Importeer Pandas in je Python-omgeving:
-```python
-import pandas as pd
-```
-
-Vaak gebruik je ook **NumPy** en **Matplotlib** samen met Pandas:
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-```
-
-Werk je in **Jupyter Notebook**? Start dan eerst je omgeving:
-```bash
-jupyter notebook
-```
-
----
-
-## 🧱 2. Pandas-objecten
-
 Pandas bestaat uit drie kernobjecten:
 
 | Object | Beschrijving | Voorbeeld |
@@ -95,7 +56,7 @@ Een Series lijkt op een NumPy-array, maar heeft **labels**. Je kunt ze zien als 
 ### Het DataFrame-object
 ```python
 data = {
-    'Naam': ['Jonas', 'Rune', 'Lisa'],
+    'Naam': ['Bert', 'Sammy', 'Lisa'],
     'Leeftijd': [28, 23, 31],
     'Stad': ['Antwerpen', 'Brussel', 'Gent']
 }
@@ -137,7 +98,7 @@ df[['Naam', 'Stad']]     # meerdere kolommen
 
 ### Rijen selecteren
 ```python
-df.loc['Jonas']          # via label
+df.loc['Bert']          # via label
 ```
 ```python
 df.iloc[0]               # via positie
@@ -433,25 +394,6 @@ Gebruik deze functies voor:
 
 ---
 
-## ☁️ 13. Data Science in de Cloud (Azure)
-
-### Wat is Azure?
-Microsoft Azure is een cloudplatform waar je:
-- Grote datasets kunt opslaan
-- Notebooks kunt uitvoeren in de cloud
-- Machine learning-modellen kunt deployen
-
-### Voorbeeldworkflow
-1. Maak een Azure-account aan  
-2. Open **Azure Machine Learning Studio**  
-3. Upload je dataset  
-4. Voer je notebook uit in de browser  
-
-Andere spelers:
-- **AWS (Amazon Web Services)**
-- **Google Cloud Platform**
-
----
 
 ## ✅ Samenvatting
 
@@ -467,7 +409,7 @@ Andere spelers:
 | String Operations | Tekstdata opschonen |
 | Tijdreeksen | Data in tijd analyseren |
 | Query/Eval | Efficiënt werken |
-| Cloud | Azure en cloud workflows |
+
 
 ---
 
