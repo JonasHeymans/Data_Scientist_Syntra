@@ -203,3 +203,4 @@ Het helpt studenten en bedrijven om gestructureerd te denken:
 En vooral: **je leert denken als een data scientist**.  
 
 ---
+
