@@ -1,9 +1,0 @@
-astral
-ipython
-ipywidgets
-matplotlib
-pandas
-pygoodwe
-Requests
-seaborn
-tqdm
