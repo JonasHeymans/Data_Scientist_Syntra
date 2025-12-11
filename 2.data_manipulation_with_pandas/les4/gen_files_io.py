@@ -34,7 +34,7 @@ with open(f"{path}/df3.csv", "w") as f:
     f.write("name,age,score\n")
     for i in range(5):
         f.write(f"{NAMES[i]},{20+i},{70+i}\n")
-    f.write("THIS IS A BROKEN LINE WITHOUT COMMAS\n")
+    f.write("THIS IS A BROKEN LINE WITH TOO MUCH COMMAS,,,,,,,\n")
     for i in range(5,10):
         f.write(f"{NAMES[i]},{20+i},{70+i}\n")
 
