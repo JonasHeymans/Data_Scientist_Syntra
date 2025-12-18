@@ -105,7 +105,7 @@ df = pd.get_dummies(df, columns=['geslacht'], drop_first=True)
 scaler = StandardScaler()
 df[['inkomen', 'leeftijd']] = scaler.fit_transform(df[['inkomen', 'leeftijd']])
 
-# Train-test-split voor modelbouw
+# Train-test.ipynb-split voor modelbouw
 X = df.drop('verlengt_contract', axis=1)
 y = df['verlengt_contract']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
