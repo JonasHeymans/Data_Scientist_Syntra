@@ -1,0 +1,13 @@
+seaborn
+openpyxl
+openmeteo_requests
+requests_cache
+xlsxwriter
+retry_requests
+pandas
+pygoodwe
+xlrd
+pandas
+numpy
+matplotlib
+astral
