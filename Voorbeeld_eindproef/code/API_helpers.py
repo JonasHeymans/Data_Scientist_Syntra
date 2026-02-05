@@ -1,22 +1,22 @@
-def enter_the_code():
-    # Imports
-    from hashlib import sha256
-    from IPython.display import clear_output
-    import ipywidgets as widgets
-    from IPython.display import display
-    from datetime import date, timedelta
-    import requests
-    import json
-    from pathlib import Path
-    from pygoodwe import SingleInverter
-    from time import sleep
-    import pandas as pd
-    import matplotlib.dates as mdates
-    import matplotlib.pyplot as plt
-    import matplotlib.animation as animation
-    import datetime
-    from IPython.display import display, HTML
+# Imports
+from hashlib import sha256
+from IPython.display import clear_output
+import ipywidgets as widgets
+from IPython.display import display
+from datetime import date, timedelta
+import requests
+import json
+from pathlib import Path
+from pygoodwe import SingleInverter
+from time import sleep
+import pandas as pd
+import matplotlib.dates as mdates
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+import datetime
+from IPython.display import display, HTML
 
+def enter_the_code():
     k=3
     for i in range(k):
         print(f'Poging {i} van {k}\n:')
@@ -190,7 +190,7 @@ def SEMS_login(API_details, timeout: int = 10):
 
     login_reponse = response.json()
     if login_reponse.get("code") != 0:
-        print(f"{data=}")
+        print(f"{login_reponse=}")
         return f'failed to login'
 
     if login_reponse.get("api"):
